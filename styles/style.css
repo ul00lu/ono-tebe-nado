@@ -30,15 +30,11 @@
 	padding-right: 63px;
 }
 .address__list {
-	display: flex;
-	flex-direction: column;
-	gap: 4px;
 	color: #000000;
 	font-size: 18px;
 	font-style: normal;
 	text-underline-offset: 4px;
 	list-style: none;
+	line-height: 1.33;
 }
 /* Конец Header =========================================================================== */
-
-
