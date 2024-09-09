@@ -3,17 +3,17 @@
 .header {
 	display: flex;
 	align-items: center;
-	gap: 42px;
+	gap: 36px;
 	padding: 92px 24px 96px 24px;
 }
 
 .header__list {
 	display: flex;
-	gap: 33px;
-	padding-left: 27px;
+	gap: 34px;
+	padding-left: 26px;
 	color: #000000;
 	font-size: 18px;
-	text-underline-offset: 4px;
+	text-underline-offset: 3px;
 	list-style: circle;
 }
 
@@ -27,7 +27,7 @@
 
 .header__address {
 	margin-left: auto;
-	padding-right: 63px;
+	padding-right: 61px;
 }
 .address__list {
 	color: #000000;
