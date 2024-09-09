@@ -3,13 +3,13 @@
 .header {
 	display: flex;
 	align-items: center;
-	gap: 36px;
+	gap: 45px;
 	padding: 92px 24px 96px 24px;
 }
 
 .header__list {
 	display: flex;
-	gap: 34px;
+	gap: 33px;
 	padding-left: 26px;
 	color: #000000;
 	font-size: 18px;
@@ -38,3 +38,78 @@
 	line-height: 1.33;
 }
 /* Конец Header =========================================================================== */
+
+/*Сover  ==================================*/
+.cover {
+	position: relative;
+	z-index: 2;
+	background-image: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: 124% 120%;
+	background-position: -138px -78px;
+	padding: 158px 50px 51px 50px;
+}
+.overlay {
+	position: absolute;
+	inset: 0px;
+	height: auto;
+	background-color: #000000;
+	opacity: 0.6;
+}
+.cover__title {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	position: relative;
+	z-index: 2;
+	text-transform: uppercase;
+	font-size: 100px;
+	margin-bottom: 138px;
+	line-height: 98%;
+	letter-spacing: 60px;
+}
+.main-span {
+	display: block;
+}
+.letter-spacing-small {
+	letter-spacing: 0.3em;
+}
+.letter-spacing-big {
+	letter-spacing: 0.6em;
+}
+.no-letter-spacing {
+	letter-spacing: normal;
+}
+.text-left {
+	line-height: 120%;
+}
+.text-center {
+	padding-left: 286px;
+}
+.text-right {
+	text-align: right;
+}
+.cover__description {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cover__description-text {
+	text-transform: uppercase;
+	font-size: 22px;
+	word-spacing: 18.4px;
+	padding-left: 28px;
+}
+
+.bet-button {
+	padding: 12px 32px 11px 31px;
+	margin: 0;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	color: inherit;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: inherit;
+}
