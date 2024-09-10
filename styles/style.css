@@ -221,8 +221,7 @@
 	border-radius: 50%;
 	background-color: #000000;
 }
-.about__logo__image {
-}
+
 .about__title {
 	padding-top: 11px;
 	justify-self: left;
@@ -262,10 +261,7 @@
 	font-size: 18px;
 	text-underline-offset: 4px;
 }
-.footer__list-item {
-}
-.footer__list-item-link {
-}
+
 .footer__list-item-link_active {
 	text-decoration: none;
 }
@@ -274,9 +270,4 @@
 	gap: 48px;
 	justify-self: right;
 }
-.footer__social-list-item {
-}
-.footer__social-link {
-}
-.footer__social-icon {
-}
+
