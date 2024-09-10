@@ -49,8 +49,8 @@
 	font-size: 18px;
 	font-style: normal;
 	line-height: 138%;
-	text-underline-offset: 4px;
 	letter-spacing: 0.1px;
+	text-underline-offset: 4px;
 	list-style: none;
 }
 /* Конец Header =========================================================================== */
@@ -139,8 +139,8 @@
 	justify-content: space-between;
 	column-gap: 25px;
 	margin-bottom: 29px;
-	list-style: none;
 	padding: 0px 24px;
+	list-style: none;
 }
 .lots__card-list-item {
 	position: relative;
@@ -200,17 +200,17 @@
 
 /* About ============================================ */
 .about {
-	padding: 0 24px;
 	margin-bottom: 180px;
+	padding: 0 24px;
 }
 .about__column {
-	padding-top: 35px;
 	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
 	align-items: center;
-	column-gap: 25px;
 	row-gap: 8px;
-	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 25px;
+	padding-top: 35px;
 }
 .about__logo {
 	display: flex;
@@ -223,15 +223,15 @@
 }
 
 .about__title {
-	padding-top: 11px;
 	justify-self: left;
+	padding-top: 11px;
 }
 .about__text {
 	display: flex;
 	flex-direction: column;
+	grid-column: 2/4;
 	gap: 24px;
 	color: #000000;
-	grid-column: 2/4;
 	line-height: 120%;
 	letter-spacing: 0.1px;
 }
@@ -239,16 +239,16 @@
 
 /* Footer */
 .footer {
-	padding: 0px 50px 88px 50px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
 	align-items: start;
+	padding: 0px 50px 88px 50px;
 }
 
 .footer__address {
-	padding-top: 2px;
 	justify-self: left;
+	padding-top: 2px;
 }
 
 .footer__menu {
@@ -256,10 +256,10 @@
 	color: #000000;
 }
 .footer__list {
-	list-style: none;
-	text-align: center;
 	font-size: 18px;
+	text-align: center;
 	text-underline-offset: 4px;
+	list-style: none;
 }
 
 .footer__list-item-link_active {
@@ -267,7 +267,6 @@
 }
 .footer__social-list {
 	display: flex;
-	gap: 48px;
 	justify-self: right;
+	gap: 48px;
 }
-
