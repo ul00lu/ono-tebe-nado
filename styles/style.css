@@ -95,7 +95,8 @@
 	line-height: 120%;
 }
 .text-center {
-	padding-left: 286px;
+	/* В самом макете слово стоит не по центру.До этого решил выравнить paddingom,за что получил бан на ревью */
+	text-align: center;
 }
 .text-right {
 	text-align: right;
@@ -134,35 +135,37 @@
 	padding-bottom: 27px;
 	padding-left: 64px;
 }
+
 .lots__card-list {
-	display: flex;
-	justify-content: space-between;
-	column-gap: 25px;
-	margin-bottom: 29px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 25px;
 	padding: 0px 24px;
 	list-style: none;
+	margin-bottom: 30px;
 }
+
 .lots__card-list-item {
-	position: relative;
-	flex: 0 1 33.33%;
+	min-height: 563px;
 }
 
 .lots__card-list-item-link {
 	display: block;
-	height: 563px;
+	height: 100%;
 	text-decoration: none;
 }
 .card {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 	padding: 51px 40px 48px 40px;
-}
-.card_type_film {
-	background-image: url(../images/card-lot-01.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+.card_type_film {
+	background-image: url(../images/card-lot-01.jpg);
 }
 .card__title {
 	position: relative;
@@ -181,15 +184,9 @@
 }
 .card_type_book {
 	background-image: url(../images/card-lot-02.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .card_type_picture {
 	background-image: url(../images/card-lot-03.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 .lots__look-more-link {
 	padding-left: 63px;
