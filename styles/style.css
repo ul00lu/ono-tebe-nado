@@ -95,7 +95,6 @@
 	line-height: 120%;
 }
 .text-center {
-	/* В самом макете слово стоит не по центру.До этого решил выравнить paddingom,за что получил бан на ревью */
 	text-align: center;
 }
 .text-right {
